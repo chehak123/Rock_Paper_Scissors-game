@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p id="res">Let's start the game buddy!!</p><p id="emoji"></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="img/rock.png" style="border: 10px solid white;" onmouseover="this.src='img/rock2.png'" onmouseout="this.src='img/rock.png'" >
+        </div>
+        <div class="choice" id="p">
+            <img src="img/paper.png" style="border: 10px solid white;" onmouseover="this.src='img/paper2.png'" onmouseout="this.src='img/paper.png'">
+        </div>
+        <div class="choice" id="s">
+            <img src="img/scissors.png" style="border: 10px solid white;" onmouseover="this.src='img/scissor2.png'" onmouseout="this.src='img/scissors.png'">
+        </div>
+    </div>
+
+    <div class="instructions">
+        <p id="ins">Make your move!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<!-- <script src="script.js"></script> -->
+
+</html>
